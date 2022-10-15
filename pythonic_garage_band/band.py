@@ -6,14 +6,20 @@ class Musician:
 
 class Band(Musician):
 
-    def __init__(self, name):
-        self.name = name
+    def __init__(self, band='Random Band'):
+        self.name = band
+
+        if band_name(self.band_name == {nirvana} not in '[]'):
+            print(band_name, [])
+        else:
+            return []
+        # if nirvana == band_name:
+        #     return "Nirvana"
+        # else:
+        #     return []
 
     def get_instrument(self):
-        return f'{self.name} '
-
-    def intro(self):
-        return str(f"My name is {self.str.name} and I play guitar")
+        return f'{self.name}'
 
     def __str__(self):
         return
@@ -69,3 +75,9 @@ if __name__ == '__main__':
     jimi = Guitarist("Jimi Hendrix")
     members.append(jimi)
     print(jimi.__repr__())
+    band_name = []
+    the_nobodies = Band(["The Nobodies"])
+    band_name.append(the_nobodies)
+    nirvana = Band(["Nirvana"])
+    band_name.append(nirvana)
+    print(band_name)
