@@ -6,6 +6,7 @@
 
 ## Links and Resources
 Version 1.0
+Version 1.1
 ## Setup
 
 ## How to initialize/run your application (where applicable)
